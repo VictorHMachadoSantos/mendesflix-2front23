@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 :root{
     --branco-principal: #fff;
     --botao-azul: #167bf7;
@@ -7,7 +8,7 @@
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
-    font-family: 'inter', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 *{
     margin: 0;
@@ -31,32 +32,60 @@ body{
     color: var(--branco-principal);
     text-decoration: none;
     display: block;
+    margin: 20px;
 }
-.botao_segundario{
+.botao_secundario{
     background-color: transparent;
-    border: 2px solid var(--branco-principal)
+    border: 2px solid var(--branco-principal);
 }
 .container img{
-   margin: 1em 0 2em 0;
+    margin: 1em 0 2em 0;
 }
 .container div{
-   margin: 6em;
-   text-align:  center;
-}
-.container_aviso{
-  padding: 10px;
-  font-size: 10px
+    margin: 6em;
+    text-align: center;
 
 }
+.container_aviso{
+    padding: 10px;
+    font-size: 10px;
+}
 .container.secundario{
- width: 80%;   
+    width: 80%;
 }
 .secundario{
     align-items: center;
     margin: 0 auto;
 }
-.descricao_titulo{
+.descriçao_titulo{
     font-weight: 700;
-    font-size: 40px;
-    color: var(--branco-principal)
+    font-size: 38px;
+    color: var(--branco-principal);
+}
+.dispositivos_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.dispositivos{
+    text-align: center;
+}
+.lista_item{
+    font-size: 30px;
+}
+
+.lista_link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+.rodape{
+    text-align: center;
+}
+.rodape li {
+    display: inline-block;
+}
+p.texto_rodape{
+    padding: 10px;
 }
